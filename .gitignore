@@ -1,1 +1,5 @@
+# Ignorar toda a pasta bin dentro do diretório api
 /api/bin/
+
+# Ignorar especificamente o diretório bin/debug/net8.0
+bin/debug/net8.0/
