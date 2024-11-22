@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\API.csproj": {}
+    "C:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\API.csproj": {
+    "C:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\API.csproj",
-        "projectName": "API",
-        "projectPath": "c:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\api.csproj",
+        "projectName": "api",
+        "projectPath": "C:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\api.csproj",
         "packagesPath": "C:\\Users\\andrew.dias\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\obj\\",
+        "outputPath": "C:\\Users\\andrew.dias\\Desktop\\chsarp\\myGym\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andrew.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,29 +46,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.11, )"
             },
