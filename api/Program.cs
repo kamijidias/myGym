@@ -1,6 +1,7 @@
 using System.Text;
 using api.DataBase;
 using api.Models;
+using api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -12,10 +13,6 @@ var builder = WebApplication.CreateBuilder(args);
 var JWTSetting = builder.Configuration.GetSection("JWTSetting");
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=auth.db"));
-builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlite("Data Source=auth.db"));
-
-builder.Services.AddIdentity<User,IdentityRole>().AddEntityFrameworkStores<AppDbContext>()
-.AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(options => {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -62,8 +59,9 @@ builder.Services.AddSwaggerGen(c=>{
             new List<string>()
         }
     });
-
 });
+
+builder.Services.AddScoped<AccountService>();
 
 var app = builder.Build();
 
