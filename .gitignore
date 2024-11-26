@@ -3,3 +3,5 @@
 
 # Ignorar especificamente o diretório bin/debug/net8.0
 bin/debug/net8.0/
+
+/api/auth.db
