@@ -6,7 +6,7 @@ using api.DataBase;
 
 #nullable disable
 
-namespace api.Migrations
+namespace API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
