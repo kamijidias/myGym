@@ -62,6 +62,7 @@ builder.Services.AddSwaggerGen(c=>{
 });
 
 builder.Services.AddScoped<AccountService>();
+builder.Services.AddScoped<ExerciseService>();
 
 var app = builder.Build();
 

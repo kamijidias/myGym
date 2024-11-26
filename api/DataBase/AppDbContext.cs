@@ -7,5 +7,6 @@ namespace api.DataBase
     {
 
         public required DbSet<User> Users { get; set;}
+        public required DbSet<Exercise> Exercises {get; set;}
     }
 }
